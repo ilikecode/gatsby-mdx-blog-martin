@@ -1,1 +1,3 @@
-GatsbyJS mdx blog built from gatsby-cli
+# GatsbyJS MDX Blog
+
+More info to follow. 

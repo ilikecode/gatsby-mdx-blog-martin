@@ -27,18 +27,36 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            option: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+        defaultLayouts: {
+          post: require.resolve('./src/components/layout.js'),
+          default: require.resolve('./src/components/layout.js'),
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Martin Guzman`,
+        short_name: `Martin`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`,
       },
     },
     {
@@ -47,8 +65,16 @@ module.exports = {
         // Add any options here
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Raleway\:300,400,500,600,700,800,900`, //font-family: 'Raleway', sans-serif;
+          `PT+Mono`, //font-family: 'PT Mono', monospace;
+        ],
+        display: 'swap',
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }

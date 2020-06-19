@@ -8,19 +8,19 @@ The site is responsive with fluid typography and UI Elements designed and select
 
 ## UI and Accessibility Features
 
-Content hierarchy is established using structural, semantic HTML and UI Elements; such as font size and weight, white space and underlined text. Users with visual impairments are not dependant on colours. 
+Content hierarchy is established using structural, semantic HTML and UI Elements; such as font size and weight, white space and underlined text. Users with CVD are not dependant on colours. 
 
 ### Typographic Elements
 
 To improve readability and assist users with dyslexia, [Raleway](https://fonts.google.com/specimen/Raleway) and [PT Mono](https://fonts.google.com/specimen/PT+Mono) font families were selected for their clear distinction between the letters; b/d, p/q, f/t, a/o/c and i/l/1.
 
-All caps are were not used to reduce visual stress for dyslexic users.
+All caps were not used to reduce visual stress for dyslexic users.
 
 ### Colour Palette
 
-A simple greyscale colour palette was applied to help ensure a cohesive visual experience for users with or without a color vision deficiency (CVD). 
+A simple greyscale colour palette was applied to help ensure a cohesive visual experience for users with or without CVD. 
 
-For an accent colour, various tones of purples were applied. Red and green were rejected as they appear confusing and unambiguously distinguishable for a majority of CVD users. 
+For accent colours, various tones of purples were applied. Red and green tone were not used because they appear confusing and unambiguously distinguishable for a majority of CVD users. 
 
 All text, links and background colours adhered to WCAG 2.1 contrast ratio requirements.
 

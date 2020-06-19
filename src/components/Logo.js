@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { Link } from 'gatsby'
 import { gsap } from 'gsap'
 import styled from 'styled-components'
 
@@ -96,6 +95,3 @@ const LogoWrap = styled.div`
 const linkStyles = {
 	textDecoration: 'none',
 }
-
-
-// ${Card}:hover & {

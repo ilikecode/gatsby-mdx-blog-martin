@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 // Import Components and Style Elements
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 import Hero from '../components/Hero'
 import { H1, P } from '../elements'
 

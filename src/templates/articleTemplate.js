@@ -5,10 +5,10 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import styled from 'styled-components'
 
 // Import Components and Style Elements
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 import Aside from "../components/Aside"
-import { H1, P } from '../elements'
+import { H1 } from '../elements'
 
 const ArticleTemplate = ({data}) => {
   const {

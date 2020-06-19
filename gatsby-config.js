@@ -62,10 +62,6 @@ module.exports = {
             },
           },
         ],
-        defaultLayouts: {
-          post: require.resolve('./src/components/layout.js'),
-          default: require.resolve('./src/components/layout.js'),
-        },
       },
     },
     {
@@ -74,8 +70,8 @@ module.exports = {
         name: `Martin Guzman`,
         short_name: `Martin`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#A299FF`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },

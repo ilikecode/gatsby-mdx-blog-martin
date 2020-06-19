@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 // Import Components
 import Layout from '../components/Layout'
 import Articles from '../components/Articles'
-import Seo from '../components/seo'
+import Seo from '../components/SEO'
 
 const CategoryTemplate = props => {
   const {

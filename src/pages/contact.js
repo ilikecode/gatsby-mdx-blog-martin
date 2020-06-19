@@ -1,21 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// Import Components
+// Import Components and Style Elements
 import Layout from '../components/layout'
 import SEO from '../components/SEO'
+import { H1, P } from '../elements'
 
-const NotFoundPage = () => (
+const ContactPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="Contact" />
     <Container>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist.</p>
+    <H1>Hi, say hello.</H1>
+    <p>Contact Form if Required.</p>
     </Container>
   </Layout>
 )
 
-export default NotFoundPage
+export default ContactPage
 
 const Container = styled.div`
   display: flex;

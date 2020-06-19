@@ -2,7 +2,28 @@ module.exports = {
   siteMetadata: {
     title: `Hello. I'm Martin Guzman | Cybersecurity Specialist with a side of beatbox.`,
     description: `Website of Martin Guzman, professional cybersecurity auditor specializing in penetration testing, python and bash scripting. Based in Orange County, California and Vancouver, Canada.`,
+    titleTemplate: `%s | Martin Guzman`,
+    url: `https://www.martin-guzman.com/`,
+    image: `mainImg.png`,
     author: `Martin Guzman`,
+    menuLinks: [
+      {
+        name: 'Home',
+        slug: '/',
+      },
+      {
+        name: 'About',
+        slug: '/about/',
+      },
+      {  
+        name: 'Articles',
+        slug: '/articles/',
+      },
+      {  
+        name: 'Contact',
+        slug: '/contact/',
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts/`,
+        name: `articles`,
+        path: `${__dirname}/src/articles/`,
       },
     },
     {
